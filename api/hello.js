@@ -1,4 +1,4 @@
 module.exports = (req, res) => {
   const { name = 'World' } = req.query
-  res.status(200)
+  res.sendStatus(200)
 }
